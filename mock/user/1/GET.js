@@ -1,0 +1,28 @@
+module.exports = function (request, response) {
+  response.send({
+    id: 1,
+    nome: "Emanuelly Letícia Caroline Rezende",
+    idade: 51,
+    cpf: "352.539.424-16",
+    rg: "12.031.881-7",
+    data_nasc: "12/05/1969",
+    sexo: "Feminino",
+    signo: "Touro",
+    mae: "Raimunda Aparecida Clarice",
+    pai: "Thales Cláudio Rezende",
+    email: "emanuellyleticiacarolinerezende_@sinalmanaus.com.br",
+    senha: "oQs22F2WXS",
+    cep: "49055-020",
+    endereco: "Travessa Adalto Botelho",
+    numero: 379,
+    bairro: "Getúlio Vargas",
+    cidade: "Aracaju",
+    estado: "SE",
+    telefone_fixo: "(79) 3733-4867",
+    celular: "(79) 98181-6582",
+    altura: "1,71",
+    peso: 78,
+    tipo_sanguineo: "A-",
+    cor: "azul",
+  });
+};
